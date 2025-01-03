@@ -1,0 +1,472 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #181a1c;
+}
+
+/* Component Header */
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #181A1C; 
+  padding: 2.5rem 1rem;
+  height: 60px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem; 
+  margin-left: 60px;
+}
+
+.logo img {
+  height: 2rem;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.nav-menu a {
+  font-size: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-right: 60px;
+}
+
+.profile-icon {
+  width: 35px;
+  height: 35px;
+}
+
+/* Component Section */
+.background-section {
+  position: relative;
+  background-image: url('image/Slide 2.png');
+  background-size: cover;
+  background-position: center;
+  height: 40rem;
+  display: flex;
+  justify-content: flex-end; 
+  color: white;
+}
+
+.background-section .black-layer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem 5rem; 
+  box-sizing: border-box;
+}
+
+.section {
+  text-align: left;
+  padding-bottom: 2rem;
+}
+
+.h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.text-section {
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  width: 80%;
+}
+
+.container-buttons {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.start-btn, .details-btn {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.start-btn:hover,
+.details-btn:hover {
+  opacity: 0.8;
+}
+
+.start-btn {
+  width: 6rem;
+  background-color: #0f1e93;
+}
+
+.details-btn {
+  background-color: #22282a;
+  width: 10rem;
+}
+
+/* Content */
+.content {
+  padding: 2.5rem 5.3rem;
+  color: #ffffff;
+}
+
+.h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.list-content {
+  display: inline-flex; 
+  gap: 1rem;
+  overflow-x: auto; 
+  white-space: nowrap; 
+  width: 100%; 
+  padding-bottom: 1rem; 
+  scrollbar-width: thin; 
+  -ms-overflow-style: none; 
+}
+
+.item-list-content {
+  flex: none; 
+  width: 16rem;
+  height: 8rem;
+  position: relative;
+}
+
+.background-image-content {
+  width: 100%; 
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+.text-overlay-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  z-index: 2;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); 
+}
+
+/* Main Content */
+.content2 {
+  display: flex; 
+  overflow-x: auto; 
+  gap: 1rem; 
+  padding-bottom: 1rem; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.image-poster {
+  flex: 0 0 auto; 
+  height: 365px;
+  width: 234px;
+  object-fit: cover; 
+  border-radius: 0.5rem;
+}
+
+.footer {
+  color: white;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: flex-start; 
+  padding: 2.5rem 5rem; 
+  background-color: #181a1c; 
+  gap: 2rem;
+  flex-wrap: wrap; 
+}
+
+
+.footer-left {
+  flex: 1; 
+  max-width: fit-content;
+  padding-right: 2rem;
+}
+
+.footer-center {
+  flex: 2; 
+  text-align: left;
+  padding-right: 2rem;
+}
+
+.footer-right {
+  flex: 1; 
+  text-align: left;
+}
+
+.flex {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap; 
+}
+
+.colom {
+  min-width: fit-content;
+}
+
+.footer-logo {
+  max-height: 40px;
+  object-fit: contain;
+}
+
+.footer-text {
+  color: #c1c2c4;
+  font-size: 0.9rem;
+}
+
+/* HALAMAN LOGIN */
+.background-login {
+  margin: 0; 
+  padding: 0;
+  height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background: url('image/login.jpg') no-repeat center center fixed; 
+  background-size: cover; 
+}
+
+.container-background {
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 2rem; 
+  border-radius: 10px; 
+  width: 90%; 
+  max-width: 400px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+  text-align: center;
+  color: #fff;
+}
+
+.container-background img {
+  width: 10rem;
+  height: 2.75rem;
+}
+
+.title {
+  font-weight: 300;
+}
+
+.subtitle {
+  font-weight: 100;
+  margin-bottom: 0rem;
+  font-size: 0.85rem;
+}
+
+.form {
+  width: 100%;
+  align-content: flex-start; 
+  text-align: left;
+}
+.h4 {
+  font-weight: 100;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  width: 90%; 
+  padding: 0.8rem 1rem; 
+  font-size: 1rem; 
+  color: #808283; 
+  background-color: rgba(0, 0, 0, 0.7); 
+  border: 1px solid #E7E3FC3B; 
+  border-radius: 1rem; 
+  outline: none; 
+}
+.contaner-form {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  font-size: 0.85rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.subtext {
+  margin: 0rem;
+  padding: 0rem;
+  color: #808283; 
+}
+
+.subtext a {
+  margin: 0rem;
+  padding: 0rem;
+  color: white;
+  cursor: pointer;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 40px;
+  padding: 0.8rem 1rem;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  color: white;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer; 
+  outline: none; 
+  margin-top: 1rem;
+}
+
+.btn img {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1rem;
+}
+
+.btn-submit {
+  background-color: #3d4142;
+}
+
+
+
+/* HALAMAN REGISTER */
+.background-register {
+  margin: 0; 
+  padding: 0;
+  height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background: url('image/register.jpg') no-repeat center center fixed; 
+  background-size: cover; 
+}
+
+
+/* Android */
+@media (max-width: 768px) {
+  /* header */
+  .nav-header {
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    height: 50px;
+  }
+  
+  .left-header {
+    margin-left: 1px;
+  }
+
+  .logo img {
+    height: 1.5rem;
+  }
+
+  .nav-menu {
+    gap: 0.7rem;
+  }
+  
+  .nav-menu a {
+    font-size: 0.8rem;
+  }
+
+  .right-header {
+    margin-right: 1px;
+  }
+
+  /* section */
+  .background-section {
+    height: 25rem;
+  }
+
+  .background-section .black-layer {
+    padding: 1rem 1.5rem;
+  }
+
+  .text {
+    text-align: left;
+    padding-bottom: 1rem;
+  }
+
+  .h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .text-section {
+    font-size: 0.6rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .container-buttons {
+    gap: 0.5rem;
+  }
+
+  .start-btn, .details-btn {
+    padding: 8px 10px;
+    font-size: 0.8rem;
+  }
+  
+  .start-btn {
+    width: 4.5rem;
+  }
+
+  .details-btn {
+    width: 8.5rem;
+  }
+
+  /* content */
+  .content {
+    padding: 1.5rem 1.5rem;
+  }
+
+  .h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .list-content {
+    overflow-x: auto; 
+    scrollbar-width: thin; 
+    -ms-overflow-style: none; 
+  }
+
+  .footer {
+    flex-direction: column; 
+    align-items: flex-start; 
+    padding: 1.5rem;
+  }
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    flex: none; 
+    width: 100%; 
+    margin-bottom: 1.5rem; 
+  }
+
+  .footer-center .flex {
+    justify-content: flex-start; 
+  }
+
+  .footer-center {
+    padding-right: 0; 
+  }
+
+  .container-background {
+    margin: 0rem 1.2rem;
+  }
+}
